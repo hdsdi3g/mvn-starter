@@ -35,6 +35,7 @@
 		<javafaker.version>1.0.2</javafaker.version>
 		<owasp.encoder.version>1.2.2</owasp.encoder.version>
 		<ognl.version>3.2.14</ognl.version>
+		<commons.text.version>1.9</commons.text.version>
 
 		<codepolicyvalidation.version>0.4.0</codepolicyvalidation.version>
 	</properties>
@@ -85,6 +86,11 @@
 				<groupId>org.owasp.encoder</groupId>
 				<artifactId>encoder</artifactId>
 				<version>${owasp.encoder.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.apache.commons</groupId>
+				<artifactId>commons-text</artifactId>
+				<version>${commons.text.version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
