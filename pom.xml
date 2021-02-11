@@ -36,7 +36,7 @@
 		<owasp.encoder.version>1.2.2</owasp.encoder.version>
 		<ognl.version>3.2.14</ognl.version>
 
-        <codepolicyvalidation.version>0.4.0</codepolicyvalidation.version>
+		<codepolicyvalidation.version>0.4.0</codepolicyvalidation.version>
 	</properties>
 
 	<dependencies>
