@@ -2,7 +2,11 @@ package tv.hd3g.commons;
 
 import java.io.IOException;
 
-public class IORuntimeException extends RuntimeException {
+/**
+ * @deprecated Please replace by UncheckedIOException
+ */
+@Deprecated(since = "3.2.0", forRemoval = true)
+public class IORuntimeException extends RuntimeException { // NOSONAR S1123
 
 	public IORuntimeException(final String message) {
 		super(message);
