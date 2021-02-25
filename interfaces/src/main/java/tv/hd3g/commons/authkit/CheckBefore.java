@@ -30,8 +30,9 @@ import java.lang.annotation.Target;
 public @interface CheckBefore {
 
 	/**
-	 * Mandatory tag(s): all must match with request owner tags
+	 * Mandatory tag(s): all must match with request owner tags.
+	 * If empty: just require logged user.
 	 */
-	String[] value();
+	String[] value() default {};
 
 }
