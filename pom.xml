@@ -76,6 +76,11 @@
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
+				<groupId>tv.hd3g.commons</groupId>
+				<artifactId>interfaces</artifactId>
+				<version>${project.parent.version}</version>
+			</dependency>
+			<dependency>
 				<groupId>ognl</groupId>
 				<artifactId>ognl</artifactId>
 				<version>${ognl.version}</version>
