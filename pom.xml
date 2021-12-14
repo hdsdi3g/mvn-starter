@@ -15,7 +15,7 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.3.7.RELEASE</version>
+		<version>2.6.1</version>
 		<relativePath />
 	</parent>
 
@@ -35,8 +35,9 @@
 		<owasp.encoder.version>1.2.2</owasp.encoder.version>
 		<ognl.version>3.2.14</ognl.version>
 		<commons.text.version>1.9</commons.text.version>
+		<log4j2.version>2.16.0</log4j2.version>
 
-		<codepolicyvalidation.version>0.4.1</codepolicyvalidation.version>
+		<codepolicyvalidation.version>1.0.1</codepolicyvalidation.version>
 	</properties>
 
 	<dependencies>
@@ -77,7 +78,7 @@
 			<dependency>
 				<groupId>tv.hd3g.commons</groupId>
 				<artifactId>interfaces</artifactId>
-				<version>${project.parent.version}</version>
+				<version>${project.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>ognl</groupId>
