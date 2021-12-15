@@ -78,7 +78,7 @@
 			<dependency>
 				<groupId>tv.hd3g.commons</groupId>
 				<artifactId>interfaces</artifactId>
-				<version>${project.version}</version>
+				<version>${project.parent.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>ognl</groupId>
