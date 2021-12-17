@@ -23,6 +23,7 @@
         <module>parent-web</module>
         <module>interfaces</module>
         <module>app</module>
+        <module>app-web</module>
     </modules>
 
     <properties>
