@@ -38,6 +38,7 @@
         <commons.text.version>1.9</commons.text.version>
         <log4j2.version>2.16.0</log4j2.version>
         <maven.gpg.version>1.6</maven.gpg.version>
+        <gpg.skip>true</gpg.skip>
         <maven.license.version>2.0.0</maven.license.version>
         <maven.nexus-staging.version>1.6.8</maven.nexus-staging.version>
         <maven.jacoco.version>0.8.7</maven.jacoco.version>

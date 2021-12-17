@@ -48,7 +48,7 @@
                 <artifactId>maven-gpg-plugin</artifactId>
                 <version>${maven.gpg.version}</version>
                 <configuration>
-                    <skip>true</skip>
+                    <skip>${gpg.skip}</skip>
                 </configuration>
             </plugin>
         </plugins>
