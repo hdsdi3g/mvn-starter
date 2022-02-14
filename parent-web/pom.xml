@@ -16,11 +16,6 @@
 
     <dependencies>
         <dependency>
-            <groupId>tv.hd3g.commons</groupId>
-            <artifactId>interfaces</artifactId>
-            <version>${interfaces.version}</version>
-        </dependency>
-        <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
             <exclusions>

@@ -17,11 +17,6 @@
 
     <dependencies>
         <dependency>
-            <groupId>tv.hd3g.commons</groupId>
-            <artifactId>interfaces</artifactId>
-            <version>${interfaces.version}</version>
-        </dependency>
-        <dependency>
             <groupId>ognl</groupId>
             <artifactId>ognl</artifactId>
         </dependency>
