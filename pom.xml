@@ -42,7 +42,7 @@
         <maven.license.version>2.0.0</maven.license.version>
         <maven.nexus-staging.version>1.6.8</maven.nexus-staging.version>
         <maven.jacoco.version>0.8.7</maven.jacoco.version>
-        <codepolicyvalidation.version>1.0.2</codepolicyvalidation.version>
+        <codepolicyvalidation.version>1.0.3</codepolicyvalidation.version>
     </properties>
 
     <dependencies>
