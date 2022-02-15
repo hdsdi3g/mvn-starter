@@ -1,6 +1,6 @@
 package tv.hd3g.commons.mailkit;
 
-import static com.github.javafaker.Faker.instance;
+import static net.datafaker.Faker.instance;
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNull;
@@ -21,8 +21,7 @@ import org.junit.jupiter.api.Test;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 
-import com.github.javafaker.service.RandomService;
-
+import net.datafaker.service.RandomService;
 import tv.hd3g.commons.mailkit.SendMailDto.MessageGrade;
 
 class SendMailDtoTest {

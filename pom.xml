@@ -32,7 +32,7 @@
         <java.version>11</java.version>
 
         <mockito.version>4.3.1</mockito.version>
-        <javafaker.version>1.0.2</javafaker.version>
+        <datafaker.version>1.1.0</datafaker.version>
         <owasp.encoder.version>1.2.3</owasp.encoder.version>
         <ognl.version>3.3.2</ognl.version>
         <commons.text.version>1.9</commons.text.version>
@@ -53,9 +53,9 @@
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>com.github.javafaker</groupId>
-            <artifactId>javafaker</artifactId>
-            <version>${javafaker.version}</version>
+            <groupId>net.datafaker</groupId>
+            <artifactId>datafaker</artifactId>
+            <version>${datafaker.version}</version>
             <scope>test</scope>
         </dependency>
         <dependency>
